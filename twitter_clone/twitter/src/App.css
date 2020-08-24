@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  display: grid;
+  grid-template-columns: 50% 50%;  
+}
+.grid-item{
+  position: flex;
+  padding: 26vh;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 45vh;
+  z-index: -1;
+}
+.logo{
+  position: fixed;
+  height: 1000px;
+  top: -15%;
+  left: 0%;
+}
+.logo-2{
+  position: absolute;
+  height: 35px;
+  top: 10%;
+  
+}
+.content{
+  position: absolute;
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 2.1em;
+  top: 12em;
+  left: 11em;
+}
+.content-2{
+  position: absolute;
+}
+.fas{
+  margin-right: 1em;
+}
+.far{
+  margin-right: 1em;
+}
+
+.one{
+  background: rgb(116, 191, 235);
+  grid-column: 1/2;
+}
+.two{
+  background: #fff;
+  grid-column: 2/3;
+}
+.btn{
+  text-decoration: none;
+}
+
+input[type=text]{
+  position: relative;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  width: 13rem ;
+  margin-right: 1em;
+  background: rgba(109, 117, 121, 0.3);
+  padding: 1em;
+  bottom: 12em;
+  right: 3em;
+}
+.top{
+  border: 1px solid rgb(116, 191, 235);
+  color: rgb(116, 191, 235);
+  background: #fff;
+  border-radius: 1.2em;
+  padding: .5em .8em .6em .8em;
+  position: relative;
+  top: -10em;
+  font-size: 1em;
+  font-weight: 700;
+  right: 28px;
+}
+.first{
+  position: absolute;
+  padding: .6em 10em;
+  background: rgb(56, 168, 233);
+  border-radius: 1.25em;
+  color: #fff;
+  left: -2%;
+  top: 115%;
+}
+.second{
+  position: absolute;
+  border: 1.6px solid rgb(56, 168, 233);
+  padding: .5em 10.2em;
+  top: 140%;
+  border-radius: 1.25em;
+  color: rgb(56, 168, 233);
+  left: -2%;
+}
+.header-btn{
+  position: relative; 
+  color: #000;
+  top: 15%;
+  font-weight: 700;
+  left: 0;
+}
+
+.header-text{
+  color: #000;
+  display: flex;
+  font-size: 2rem;
+  position: relative;
+  top: 25%;
+  width: 380px;
+}
+.nav{
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background: #fff;
+  height: 22px;
+  z-index: 1;
+  padding: 1.2em;
+  top: 93%;
+  font-size: .80em;
+  color: gray;
+}
+.nav p{
+  position: absolute;
+  right: 15%;
+  top: 2%;
+}
+.nav a {
+  position: relative;
+  display: flex;
+  margin-right: .5em;
+  margin-left: .5em;
+  left: 15%;
+}
